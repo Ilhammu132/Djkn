@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(198, 189, 189);
+    color: rgb(11, 10, 10);
+    background-image: url(image/moroccan-flower.png);
+}
+
+.container{
+    position: relative;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    border-right: 5px solid black;
+    border-left: 5px solid gold;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.header .judul{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.logo{
+    width: 60px;
+    height: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+}
+ul{
+    margin-left: -40px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover{
+    color: white;
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+
+.content{
+    padding: 0 20px ;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -10px;
+}
+
+.content .penulis a{
+    color: aqua;
+    text-decoration: none;
+}
+.content p{
+    font-size: 14px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer .copy{
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5em ;
+}
+
+.contact{
+    color: rgb(243, 211, 211);
+}
+
+.paragraf{
+    margin-left: 20px;
+}
