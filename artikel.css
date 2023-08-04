@@ -95,6 +95,7 @@ img{
     display: flex;
     justify-content: space-between;
     margin: 0 5em ;
+    gap: 20px;
 }
 
 .contact{
@@ -103,4 +104,15 @@ img{
 
 .paragraf{
     margin-left: 20px;
+}
+
+.contact a{
+    font-size: 20px;
+    color: black;
+}
+
+.contact a:hover{
+    font-size: 20px;
+    color: white;
+    background-color: aqua;
 }
